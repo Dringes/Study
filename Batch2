@@ -1,0 +1,53 @@
+devman@5d1a11319833:~$ whoami
+devman
+devman@5d1a11319833:~$ ls
+ Downloads  'My Files'   yandex_money_token
+devman@5d1a11319833:~$ tree -l -a
+.
+├── .bash_history
+├── .bash_logout
+├── .bashrc
+├── Downloads
+│   ├── event-1-2.ics
+│   ├── event-1-3.ics
+│   ├── event-1-4.ics
+│   ├── event-1.ics
+│   ├── local
+│   │   ├── note.txt
+│   │   └── plans.txt
+│   └── movie.wav
+├── My Files
+│   ├── blank.jpg
+│   ├── codereview.diff
+│   ├── note-2.txt
+│   ├── note.txt
+│   ├── Pictures
+│   │   ├── Personal
+│   │   │   ├── kids.jpg
+│   │   │   ├── wife1.jpg
+│   │   │   └── wife2.jpg
+│   │   ├── Photo on 08-08-2018 at 12.10 #2.jpg
+│   │   ├── Photo on 08-08-2018 at 12.10 #3.jpg
+│   │   ├── Photo on 08-08-2018 at 12.10.jpg
+│   │   ├── Scan 1 copy.jpeg
+│   │   ├── Scan 1.jpeg
+│   │   └── Scan 2.jpeg
+│   ├── plans_for_monday.txt
+│   └── secret_info.txt
+├── .profile
+└── yandex_money_token
+    ├── .editorconfig
+    ├── example.jpg
+    ├── README.md
+    ├── requirements.txt
+    ├── server.py
+    └── templates
+        ├── layout.html
+        ├── request_peristent_token.html
+        └── request_tmp_token.html
+
+7 directories, 34 files
+devman@5d1a11319833:~$ pwd
+/home/devman
+devman@5d1a11319833:~$ nano /home/devman/Downloads/local/note.txt
+devman@5d1a11319833:~$
