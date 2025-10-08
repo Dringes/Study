@@ -1,0 +1,24 @@
+
+C:\Windows\system32>python --version
+Python 3.14.0
+
+C:\Windows\system32>pip -version
+
+Usage:
+  pip <command> [options]
+
+no such option: -e
+
+C:\Windows\system32>pip --version
+pip 25.2 from C:\Users\Dringes\AppData\Local\Programs\Python\Python314\Lib\site-packages\pip (python 3.14)
+
+C:\Windows\system32>cd c:/python_scripts
+
+c:\python_scripts>python hello_world.py
+python: can't open file 'c:\\python_scripts\\hello_world.py': [Errno 2] No such file or directory
+
+c:\python_scripts>python hello-world.py
+Hello, World!
+
+c:\python_scripts>
+
